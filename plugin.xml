@@ -19,7 +19,7 @@
         <clobbers target="MercadoPago" />
     </js-module>
 
-     <dependency id="cordova-plugin-add-swift-support" version="1.6.0"/>
+     <dependency id="cordova-plugin-add-swift-support" version="1.7.1"/>
 
 <!--    <hook type="after_platform_add" src="hooks/addEmbedded.js" />-->
 
