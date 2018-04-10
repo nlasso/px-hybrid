@@ -200,8 +200,8 @@
     }
     
     ServicePreference* sp = [[ServicePreference alloc]init];
-    NSDictionary *extraParams = @{@"merchant_access_token" : merchantAccessToken};
-    [sp setGetCustomerWithBaseURL:merchantBaseUrl URI:merchantGetCustomerUri additionalInfo:extraParams];
+//    NSDictionary *extraParams = @{@"merchant_access_token" : merchantAccessToken};
+//    [sp setGetCustomerWithBaseURL:merchantBaseUrl URI:merchantGetCustomerUri additionalInfo:extraParams];
     //--Checkout Customization Preferences
     
     UIViewController *rootViewController = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
