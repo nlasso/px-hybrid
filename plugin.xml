@@ -43,7 +43,7 @@
 
         <header-file src="src/ios/MercadoPagoPlugin.h" target-dir="MercadoPago"/>
         <source-file src="src/ios/MercadoPagoPlugin.m" target-dir="MercadoPago"/>
-        <framework src="MercadoPagoSDK" type="podspec" spec="3.0.0-BETA-39" />
+       <!-- <framework src="MercadoPagoSDK" type="podspec" spec="3.0.0-BETA-39" /> -->
     </platform>
 
 </plugin>
